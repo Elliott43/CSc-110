@@ -2,7 +2,7 @@ import ans
 
 to_inches = lambda feet: "Inches: " + str(round(feet * 12, 3))
 to_meters = lambda feet: "Meter: " + str(round(feet * .3048, 3))
-to_rods   = lambda feet: "Rods: "   + str(round(feet * 0.061, 1))
+to_rods   = lambda feet: "Rods: "   + str(round(feet / 16.5, 1))
 
 if __name__ == '__main__':
     feet = ans.ans("Number of feet:", get_int=True, formatting_for_the_stupid_autograder="", newline=False)
