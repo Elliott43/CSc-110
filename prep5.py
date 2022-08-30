@@ -9,7 +9,7 @@ def main():
 
 
 PRICE_POINT = 20
-is_expensive = lambda cost: cost >= PRICE_POINT
+is_expensive = lambda cost: cost > PRICE_POINT
 
 if __name__ == "__main__":
     main()
